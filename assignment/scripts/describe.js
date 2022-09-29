@@ -181,6 +181,9 @@ if (temp > 39 && time >= 4) {
 let age = 21;
 const minAge = 21;
 
+//FIX - - rearrange the conditions to '(age >=minAge)' to allow it to compare the 'age' to 'minAge' in order to execute the console.log properly. 
+
+// FIX - - Since the conditions will be rearranged according the previous FIX, the console.log will have to change to "console.log('enter')" as it will make sense to allow a person with the age of 21 and over to enter. if the value is not equal to or greater than the value 21 then the else statements console.log will have to change to console.log('no entry') to cover for any values of age that are less than '21'. 
 if(minAge <= age) {
   console.log('no entry');
 } else {
